@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "mappings": "AGAA,AAAA,CAAC,CAAA;EACG,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CACzB",
+    "sources": [
+        "../scss/main.scss",
+        "../scss/Helpers/_variable.scss",
+        "../scss/Helpers/_mixin.scss",
+        "../scss/Base/_reset.scss",
+        "../scss/Layouts/_header.scss",
+        "../scss/Layouts/_footer.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
