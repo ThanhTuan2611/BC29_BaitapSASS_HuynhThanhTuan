@@ -1,0 +1,25 @@
+.headertop{
+    justify-content: space-between;
+    .header_logo img{
+        width: 80px;
+        height: 80px;
+    }
+}
+.navbar{
+    .nav-item{
+        padding-right: 30px;
+        font-size: 13px;
+    }
+    .menu_contact{
+        .btn_menu--call{
+            padding: 5px 10px;
+            background-color: $color-primary;
+            border-radius: 30px;
+            i,.num-phone{
+                font-size: 13px;
+                color: $color-white;
+            }
+        }
+
+    }
+}

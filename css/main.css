@@ -3,5 +3,34 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  list-style: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.headertop {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.headertop .header_logo img {
+  width: 80px;
+  height: 80px;
+}
+
+.navbar .nav-item {
+  padding-right: 30px;
+  font-size: 13px;
+}
+
+.navbar .menu_contact .btn_menu--call {
+  padding: 5px 10px;
+  background-color: #b61984;
+  border-radius: 30px;
+}
+
+.navbar .menu_contact .btn_menu--call i, .navbar .menu_contact .btn_menu--call .num-phone {
+  font-size: 13px;
+  color: #fff;
 }
 /*# sourceMappingURL=main.css.map */
