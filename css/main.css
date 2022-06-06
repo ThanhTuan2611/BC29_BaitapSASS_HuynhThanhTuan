@@ -7,30 +7,100 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-.headertop {
+#header {
+  background-image: url("../../images/yellow_top_wave_01.png");
+}
+
+#header .container {
+  max-width: 1200px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.headertop .header_logo img {
+#header .header_logo img {
   width: 80px;
   height: 80px;
 }
 
-.navbar .nav-item {
-  padding-right: 30px;
-  font-size: 13px;
+#header .header_nav {
+  padding-right: 20px;
 }
 
-.navbar .menu_contact .btn_menu--call {
-  padding: 5px 10px;
+#header .header_nav .list_item {
+  padding: 12px 12px 0px 12px;
+}
+
+#header .header_nav .item_link {
+  padding: 10px;
+  text-decoration: none;
+  color: #181818;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+#header .header_nav .item_link:hover {
+  color: #b61984;
+}
+
+#header .header_contact .link_contact {
+  text-decoration: none;
+  color: transparent;
+  margin-right: 20px;
+}
+
+#header .header_contact .btn-contact {
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
   background-color: #b61984;
-  border-radius: 30px;
+  color: #fff;
+  font-size: 13px;
 }
 
-.navbar .menu_contact .btn_menu--call i, .navbar .menu_contact .btn_menu--call .num-phone {
+#header .header_contact .btn-contact:hover {
+  background-color: #fff;
+  color: #b61984;
+  border: 1px solid #b61984;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+#header .header_contact .social_contact {
+  padding-top: 10px;
+}
+
+#header .header_contact .social_contact .icon_link {
+  text-decoration: none;
   font-size: 13px;
-  color: #fff;
+  color: #181818;
+  padding-right: 10px;
+}
+
+#header .header_contact .social_contact .icon_link:hover {
+  color: #b61984;
+}
+
+#section .container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1200px;
+}
+
+#section .container .text_content h3 {
+  font-weight: 400;
+  margin-bottom: 8px;
+  color: #b61984;
+  text-transform: uppercase;
+  font-size: 16.5px;
+}
+
+#section .container .text_content h1 {
+  font-weight: 700;
+  font-size: 57px;
 }
 /*# sourceMappingURL=main.css.map */

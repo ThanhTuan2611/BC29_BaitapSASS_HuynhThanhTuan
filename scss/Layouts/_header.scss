@@ -1,25 +1,90 @@
-.headertop{
-    justify-content: space-between;
-    .header_logo img{
+#header {
+    background-image: url("../../images/yellow_top_wave_01.png");
+    .container {
+        max-width: 1200px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header_logo img {
         width: 80px;
         height: 80px;
     }
-}
-.navbar{
-    .nav-item{
-        padding-right: 30px;
-        font-size: 13px;
+
+    .header_nav {
+        padding-right: 20px;
+
+        .list_item {
+            padding: 12px 12px 0px 12px;
+        }
+
+        .item_link {
+            padding: 10px;
+            text-decoration: none;
+            color: $color1;
+            font-size: $fs1;
+            font-weight: $fw3;
+            &:hover {
+                color: $color-primary;
+            }
+        }
     }
-    .menu_contact{
-        .btn_menu--call{
-            padding: 5px 10px;
+
+    .header_contact {
+        .link_contact {
+            text-decoration: none;
+            color: transparent;
+            margin-right: 20px;
+            
+        }
+
+        .btn-contact {
+            padding: 10px;
+            border: none;
+            border-radius: 20px;
             background-color: $color-primary;
-            border-radius: 30px;
-            i,.num-phone{
-                font-size: 13px;
-                color: $color-white;
+            color: $color-white;
+            font-size: $fs1;
+            &:hover{
+                background-color: $color-white;
+                color: $color-primary;
+                border: 1px solid $color-primary;
+                transition: all 0.3s linear;
             }
         }
 
+        .social_contact {
+            padding-top: 10px;
+
+            .icon_link {
+                text-decoration: none;
+                font-size: $fs1;
+                color: $color1;
+                padding-right: 10px;
+
+                &:hover {
+                    color: $color-primary;
+                }
+            }
+
+        }
+    }
+}
+
+#section{
+    .container{
+        align-items: center;
+        max-width: 1200px;
+        .text_content h3{
+            font-weight: $fw3;
+            margin-bottom: 8px;
+            color: $color-primary;
+            text-transform: uppercase;
+            font-size: 16.5px;
+        }
+        .text_content h1{
+            font-weight: $fw4;
+            font-size: 57px;
+        }
     }
 }
